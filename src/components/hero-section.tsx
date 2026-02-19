@@ -34,8 +34,8 @@ export function HeroSection() {
 
       <div className="relative min-h-[420px] border fine-line rounded-none">
         <Image
-          src="https://images.unsplash.com/photo-1556911220-bda9f7f7597e?auto=format&fit=crop&w=1600&q=80"
-          alt="Kitchen showroom with cabinetry and appliances"
+          src="/bathroom.jpeg"
+          alt="Bathroom vanity and fixtures"
           fill
           priority
           className="object-cover fade-only rounded-none"

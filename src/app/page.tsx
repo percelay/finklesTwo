@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <main className="bg-bg text-text-main">
       <SiteHeader />
-      <div className="pt-16">
+      <div className="pt-24">
         <HeroSection />
         <ServicesGrid />
         <BrandsStrip />

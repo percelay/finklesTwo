@@ -17,7 +17,7 @@ const services = [
     title: "Decorative Hardware",
     copy: "Knobs, pulls, hinges, and latches in stocked finishes for quick replacement and full project orders.",
     icon: Hammer,
-    className: ""
+    className: "md:row-span-2"
   },
   {
     title: "Fireplaces",
