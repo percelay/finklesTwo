@@ -1,21 +1,16 @@
 import type { Metadata } from "next";
-import { Lato, Playfair_Display } from "next/font/google";
+import { Lato } from "next/font/google";
 import "./globals.css";
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair"
-});
 
 const lato = Lato({
   subsets: ["latin"],
-  weight: ["300", "400", "700"],
+  weight: ["400", "700", "900"],
   variable: "--font-lato"
 });
 
 export const metadata: Metadata = {
-  title: "Finkles Atelier",
-  description: "Elegant, timeless interiors and architectural details."
+  title: "Finkles Supply Co.",
+  description: "Kitchen, bath, hardware, and fireplace supply for jobs of any size."
 };
 
 export default function RootLayout({
@@ -25,10 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable} ${lato.variable} bg-bg text-text-main antialiased`}>
+      <body className={`${lato.variable} bg-bg text-text-main antialiased`}>
         {children}
       </body>
     </html>
   );
 }
-

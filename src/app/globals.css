@@ -6,7 +6,7 @@
   --color-primary: #2c3e2c;
   --color-accent: #d4a373;
   --color-text-main: #1c1c1c;
-  --font-heading: var(--font-playfair);
+  --font-heading: var(--font-lato);
   --font-body: var(--font-lato);
 }
 
@@ -18,6 +18,13 @@ body {
   background: var(--color-bg);
   color: var(--color-text-main);
   font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
 }
 
 .section-shell {
@@ -46,4 +53,3 @@ button:hover,
 .fade-only:hover {
   opacity: 0.78;
 }
-
